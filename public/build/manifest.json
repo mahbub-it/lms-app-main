@@ -1,0 +1,37 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CMAX3p8Y.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-BU7HLYuq.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app-inertia.js"
+    ],
+    "css": [
+      "assets/Home-47yvzU90.css"
+    ]
+  },
+  "resources/js/app-inertia.js": {
+    "file": "assets/app-inertia-CXcGNap1.js",
+    "name": "app-inertia",
+    "src": "resources/js/app-inertia.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Home.vue"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-C0G0cght.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
